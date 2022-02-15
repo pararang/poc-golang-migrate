@@ -5,7 +5,7 @@
 # Create new migration file. takes parameter `file` as filename. 
 # Usage: `make create-migration-fund file=create_table_user`
 create-migration-fund: 
-	migrate create -ext sql -dir migrations/fund -seq $(file)
+	migrate create -ext sql -dir migrations/fund $(file)
 
 # Create new migration file. takes parameter `file` as filename. 
 # Usage: `make create-migration-commerce file=create_table_user`
