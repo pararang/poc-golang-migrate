@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS funders(
+   id serial PRIMARY KEY,
+   name VARCHAR (50) UNIQUE NOT NULL
+);
