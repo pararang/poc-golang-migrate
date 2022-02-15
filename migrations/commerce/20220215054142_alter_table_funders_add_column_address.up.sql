@@ -1,0 +1,2 @@
+ALTER TABLE funders
+ADD COLUMN IF NOT EXISTS address TEXT;

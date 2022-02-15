@@ -1,0 +1,1 @@
+ALTER TABLE funders DROP COLUMN IF EXISTS address;

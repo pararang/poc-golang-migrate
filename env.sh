@@ -1,1 +1,2 @@
-export POSTGRESQL_URL='postgres://developer:password@localhost:5432/golang-migrate?sslmode=disable'
+export POSTGRESQL_URL_FUND='postgres://developer:password@localhost:5432/poc?sslmode=disable&x-migrations-table=migrations_fund'
+export POSTGRESQL_URL_COMMERCE='postgres://developer:password@localhost:5432/poc?sslmode=disable&x-migrations-table=migrations_commerce'
